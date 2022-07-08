@@ -528,129 +528,225 @@
 						</div>
 					</div>
 					<div class="col-lg-8 col-md-6">
-						<div class="card">
+						<div class="card" id="basic-alert">
 							<div class="card-body">
-								<div class="mb-4 main-content-label">Información personal</div>
-								<form class="form-horizontal">
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Cédula</label>
+								<div>
+									<h6 class="card-title mb-1">Información personal</h6>
+									<p class="text-muted card-sub-title">Ingrese a cada pestaña para revisar su
+										información</p>
+								</div>
+								<div class="text-wrap">
+									<div class="example">
+										<div class="panel panel-primary tabs-style-1">
+											<div class=" tab-menu-heading">
+												<div class="tabs-menu1">
+													<!-- Tabs -->
+													<ul class="nav panel-tabs main-nav-line">
+														<li class="nav-item"><a href="#tab1" class="nav-link active"
+																data-bs-toggle="tab">Perfil</a></li>
+														<li class="nav-item"><a href="#tab2" class="nav-link"
+																data-bs-toggle="tab">Contraseña</a>
+														</li>
+													</ul>
+												</div>
 											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="User Name"
-													value="118920211">
-											</div>
-										</div>
-									</div>
-									<div class="mb-4 main-content-label">Nombre</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Nombre</label>
-											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="User Name"
-													value="David">
-											</div>
-										</div>
-									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Primer apellido</label>
-											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="First Name"
-													value="Rodríguez">
-											</div>
-										</div>
-									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Segundo apellido</label>
-											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="Last Name"
-													value="Coto">
-											</div>
-										</div>
-									</div>
-									<div class="mb-4 main-content-label">Información de contacto</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Correo electrónico</label>
-											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="Email"
-													value="drodriguezc1@ucenfotec.ac.card-footer">
-											</div>
-										</div>
-									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Teléfono</label>
-											</div>
-											<div class="col-md-9">
-												<input type="text" class="form-control" placeholder="phone number"
-													value="+245 354 654">
-											</div>
-										</div>
-									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Ubicación</label>
-											</div>
-											<div class="col-md-9">
-												<div><img alt="Responsive image" class="img-fluid"
-														src="../assets/img/photos/1.jpg">
+											<div
+												class="panel-body tabs-menu-body main-content-body-right border-top-0 border">
+												<div class="tab-content">
+													<div class="tab-pane active" id="tab1">
+														<form class="form-horizontal">
+															<div class="mb-4 main-content-label">Nombre</div>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Nombre</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="User Name" value="David">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Primer
+																			apellido</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="First Name" value="Rodríguez">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Segundo
+																			apellido</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="Last Name" value="Coto">
+																	</div>
+																</div>
+															</div>
+															<hr class="mg-y-30">
+															<div class="mb-4 main-content-label">Información de contacto
+															</div>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Cédula</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="User Name" value="118920211">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Correo
+																			electrónico</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="Email"
+																			value="drodriguezc1@ucenfotec.ac.card-footer">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Teléfono</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="phone number"
+																			value="+245 354 654">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Ubicación</label>
+																	</div>
+																	<div class="col-md-9">
+																		<div><img alt="Responsive image"
+																				class="img-fluid"
+																				src="../assets/img/photos/1.jpg">
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Latitud</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input class="form-control"
+																			name="example-textarea-input" rows="2"
+																			placeholder="12321313"></input>
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Longitud</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input class="form-control"
+																			name="example-textarea-input" rows="2"
+																			placeholder="-12321313"></input>
+																	</div>
+																</div>
+															</div>
+															<hr class="mg-y-30">
+															<div class="mb-4 main-content-label">Información social
+															</div>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Fecha de
+																			nacimiento</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="date" class="form-control"
+																			placeholder="twitter"
+																			value="twitter.com/spruko.me">
+																	</div>
+																</div>
+															</div>
+														</form>
+														<p></p>
+														<button type="submit"
+															class="btn btn-primary waves-effect waves-light">Actualizar
+															Perfil</button>
+													</div>
+													<div class="tab-pane" id="tab2">
+														<form class="form-horizontal">
+															<h4 class="tx-18 mb-3">Actualizar contraseña</h4>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Contraseña
+																			antigua</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="Contraseña antigua">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Nueva
+																			contraseña</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="Nueva contraseña">
+																	</div>
+																</div>
+															</div>
+															<p></p>
+															<div class="form-group ">
+																<div class="row">
+																	<div class="col-md-3">
+																		<label class="form-label">Confirmar nueva
+																			contraseña</label>
+																	</div>
+																	<div class="col-md-9">
+																		<input type="text" class="form-control"
+																			placeholder="Confirmar contraseña">
+																	</div>
+																</div>
+															</div>
+														</form>
+														<button type="submit"
+															class="btn btn-primary waves-effect waves-light">Actualizar</button>
+													</div>
+
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Latitud</label>
-											</div>
-											<div class="col-md-9">
-												<input class="form-control" name="example-textarea-input" rows="2"
-													placeholder="12321313"></input>
-											</div>
-										</div>
-									</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Longitud</label>
-											</div>
-											<div class="col-md-9">
-												<input class="form-control" name="example-textarea-input" rows="2"
-													placeholder="-12321313"></input>
-											</div>
-										</div>
-									</div>
-									<div class="mb-4 main-content-label">Información social</div>
-									<div class="form-group ">
-										<div class="row">
-											<div class="col-md-3">
-												<label class="form-label">Fecha de nacimiento</label>
-											</div>
-											<div class="col-md-9">
-												<input type="date" class="form-control" placeholder="twitter"
-													value="twitter.com/spruko.me">
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-							<div class="card-footer">
-								<button type="submit" class="btn btn-primary waves-effect waves-light">Actualizar
-									Perfil</button>
+								</div>
 							</div>
 						</div>
 					</div>
